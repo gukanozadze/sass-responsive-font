@@ -1,0 +1,19 @@
+
+html {
+
+   @include respond(desktop){
+      font-size: 62.5%; // 1rem = 10px   
+
+   }
+   @include respond(tablet_land){
+       font-size: 56.5%; // 1rem = 9px   
+   }
+
+   @include respond(tablet_port){
+       font-size: 50%; // 1rem = 8px   
+   }
+
+   @include respond(phone){
+       font-size: 45%; // 1rem = 7px   
+   }
+}

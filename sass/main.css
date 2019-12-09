@@ -1,0 +1,24 @@
+@media (min-width: 1920px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 56.5%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
