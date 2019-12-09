@@ -1,19 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 html {
+    font-size: 62.5%; // 1rem = 10px   
 
-   @include respond(desktop){
-      font-size: 62.5%; // 1rem = 10px   
+    @include respond(desktop) {// 1920px
+        font-size: 62.5%; // 1rem = 10px   
+    }
 
-   }
-   @include respond(tablet_land){
-       font-size: 56.5%; // 1rem = 9px   
-   }
+    @include respond(desktop_small) {// 1440px
+        font-size: 52.5%; // 1rem = 9px   
+    }
 
-   @include respond(tablet_port){
-       font-size: 50%; // 1rem = 8px   
-   }
+    @include respond(tablet_land) {// 1200px
+        font-size: 42.5%; // 1rem = 8px   
+    }
 
-   @include respond(phone){
-       font-size: 45%; // 1rem = 7px   
-   }
+    @include respond(tablet_port) {// 900px
+        font-size: 36%; // 1rem = 7px   
+    }
+
+    @include respond(phone) {// 700px
+        font-size: 30%; // 1rem = 6px   
+    }
+
+
+
+    // // media queries (no SASS)
+    // @media screen and (min-width: 1920px) {
+    //     html{
+    //         font-size: 62.5%;
+    //     }
+    // }
+
+    // // media queries (no SASS)
+    // @media screen and (max-width: 14400px) {
+    //     html{
+    //         font-size: 52.5%;
+    //     }
+    // }
+
+    // @media screen and (max-width: 1200px) {
+    //     html{
+    //         font-size: 42.5%;
+    //     }
+    // }
+    // @media screen and (max-width: 900px) {
+    //     html{
+    //         font-size: 36%;
+    //     }
+    // }
+
+    // @media screen and (max-width: 700px) {
+    //     html{
+    //         font-size: 30%;
+    //     }
+    // }
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
 }
