@@ -1,5 +1,19 @@
-@import 'abstract/mixins' ;
-@import 'base/base' ;
+@import "abstract/mixins";
+@import "abstract/functions";
+@import "abstract/variables";
 
-@import 'components/card';
-@import 'components/table';
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+@import "components/buttons";
+
+@import "layout/footer";
+@import "layout/forms";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/about";
+@import "pages/contact";
+@import "pages/home";
