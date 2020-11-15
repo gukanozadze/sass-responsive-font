@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "node-sass": "^4.13.0"
-  },
-  "name": "responsive-layout-in-rems",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
-}
